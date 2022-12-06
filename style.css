@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+/* Add styles here! */
+
+.title {
+  margin-bottom: 48px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.max-width-wrapper {
+  margin-left: 50px;
+  margin-right: 50px;
+  min-width: 100%;
+}
+
+.intro-chunk {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  padding-left: 36px;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid grey;
+  border-bottom: 4px solid lightslategray;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 80%;
+}
+
+.card p {
+ padding-left: 12px;
+}
+
+.indented-heading {
+  background: gold;
+  padding: 20px 100px;
+  text-align: start;
+  padding-left: 20px;
+  margin-left: -10px;
+  padding-right: 0px;
+  width: fit-content;
+  padding-right: 20px;
+  border-bottom: 3px solid darkgoldenrod;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+main {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: grey;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+
+
+
+
+
